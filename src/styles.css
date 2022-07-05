@@ -191,3 +191,11 @@ footer{
 .container-form .btn-enviar:hover{
     background: #5b5b5b;
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200 vh;
+
+}

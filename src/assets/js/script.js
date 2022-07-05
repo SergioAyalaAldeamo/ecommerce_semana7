@@ -31,7 +31,7 @@ function addItemCarrito(newItem){
 
   setTimeout( function(){
     alert.classList.add('hide')
-  }, 2000)
+  }, 1200)
     alert.classList.remove('hide')
 
   const InputElemnto = tbody.getElementsByClassName('input__elemento')
@@ -104,11 +104,12 @@ function removeItemCarrito(e){
     }
   }
 
+
   const alert = document.querySelector('.remove')
 
   setTimeout( function(){
     alert.classList.add('remove')
-  }, 2000)
+  }, 1200)
     alert.classList.remove('remove')
 
   tr.remove()
